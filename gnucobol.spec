@@ -1,12 +1,12 @@
 Summary:	GnuCOBOL translator/compiler
 Summary(pl.UTF-8):	Translator/kompilator GnuCOBOL
 Name:		gnucobol
-Version:	3.1.2
+Version:	3.2
 Release:	1
 License:	LGPL v3+ (library), GPL v3+ (compiler)
 Group:		Development/Languages
 Source0:	https://ftp.gnu.org/gnu/gnucobol/%{name}-%{version}.tar.lz
-# Source0-md5:	78f429b868d70f9ae343cbad6c1ed866
+# Source0-md5:	0b943fd5ad464dcf76f3d2e719f19e4c
 Patch0:		%{name}-info.patch
 URL:		https://gnucobol.sourceforge.io/
 BuildRequires:	db-devel >= 4.1
@@ -15,6 +15,7 @@ BuildRequires:	json-c-devel >= 0.12
 BuildRequires:	libxml2-devel >= 2.0
 BuildRequires:	lzip
 BuildRequires:	ncurses-devel >= 5.2
+BuildRequires:	pkgconfig
 BuildRequires:	tar >= 1:1.22
 Requires:	%{name}-devel = %{version}-%{release}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
