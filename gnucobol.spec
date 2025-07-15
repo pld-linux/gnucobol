@@ -2,7 +2,7 @@ Summary:	GnuCOBOL translator/compiler
 Summary(pl.UTF-8):	Translator/kompilator GnuCOBOL
 Name:		gnucobol
 Version:	3.2
-Release:	1
+Release:	2
 License:	LGPL v3+ (library), GPL v3+ (compiler)
 Group:		Development/Languages
 Source0:	https://ftp.gnu.org/gnu/gnucobol/%{name}-%{version}.tar.lz
