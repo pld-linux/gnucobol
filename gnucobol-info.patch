@@ -21,3 +21,13 @@
  @end direntry
  
  @end ifinfo
+--- gnucobol-3.2/doc/cbrunt.tex~	2023-07-28 19:20:48.000000000 +0200
++++ gnucobol-3.2/doc/cbrunt.tex	2025-08-30 16:31:11.413330317 +0200
+@@ -211,6 +211,7 @@
+          Example:  COB_CURRENT_DATE "2026/03/16 16:40:52"
+                    current_date YYYYMMDDHHMMSS+01:00
+ 
++@end verbatim
+ 
+ @section Call environment
+ @verbatim
